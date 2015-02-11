@@ -1,0 +1,10 @@
+# Ignore installed modules
+node_modules/
+
+# Ignore CodeStyle preferences in the root directory
+.jscsrc
+.jshintrc
+
+# But add CodeStyle preferences in the prefs folders
+!/prefs/CodeStyle/.jscsrc
+!/prefs/CodeStyle/.jshintrc

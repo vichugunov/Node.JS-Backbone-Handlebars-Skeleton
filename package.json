@@ -1,0 +1,22 @@
+{
+	"name":  "Learnee",
+	"version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:learne/learnee.git"
+  },
+  "private": true,
+	"description": "MVP for student's study project",
+	"main": "app/app.js",
+	"devDependencies": {
+    "express-handlebars": "~1.1.0",
+    "path": "*"
+	},
+	"dependencies": {
+    "express": "~4.11.2"
+	},
+  "scripts": {
+    "start": "node js/app/app.js"
+  },
+  "engine": "0.10.x"
+}
